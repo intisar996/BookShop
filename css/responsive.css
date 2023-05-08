@@ -1,0 +1,451 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+   
+    .logo {
+        text-align: center;
+    }
+    .bg-light{
+        height: 0px;
+    }
+    .dropdown {
+        margin-left: 0px;
+    }
+}
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 580px) {
+    .dropdown {
+        margin-left: 0px;
+      }      
+    .header_section {
+        margin-top: 40px;
+    }
+    .header_left {
+        text-align: center;
+    }
+    .image-12 {
+        right: 149px;
+        top: -34px;
+        
+    }
+    .image_10 {
+        left: 9%;
+        top: 20px;
+        width: 83%;
+        border: 12px solid #A09F57;
+        border-color: #C6D57E transparent transparent #C6D57E;
+}
+    .banner-main{
+        padding: 3px 5px 10px 5px;
+    }
+    .banner_text {
+    font-size: 22px;    }
+    .btn_main {
+        margin: 2px 40px 30px;
+    }
+    .layout_padding {
+        padding-top: 5px;
+    }
+    .services_section{
+        padding-bottom: 281px !important;
+    }
+    .services_taital {
+        text-align: center;
+    }
+    .services_text{
+        font-size: 19px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .text_align_center p {
+        line-height: 1.5;
+    }
+    .moremore_bt{
+        margin-left: 76px;
+        margin-right: 76px;
+    }
+    .btn-more {
+        margin-left: 33%;
+      
+      }
+      .text_align_center .about-btn {
+        font-size: 14px;
+        padding: 5px;
+        width: 37%;
+        height: 50px;
+      }
+    .text_align_center {
+        padding: 5px;
+    }
+    .containe .card-text {
+        font-size: 28px;
+        line-height: 1.5;
+        height: 100px;
+        top: 142px;
+        right: -10px;
+    }
+   .product {
+    margin-top: 622px;
+}
+    .search {
+        display: flex;
+    flex-direction: column;
+}
+.search form {
+        display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.search form td:first-child {
+    display: flex;
+    position: absolute;
+    right: 70px;
+}
+.search form td:nth-child(2) {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 266px;
+}
+    .first_img{
+        position: absolute;
+        top: 49%;
+        right: 22%;
+        width: 761px;
+    }
+    .design {
+        margin-bottom: 238px;
+    }
+    .image_10{
+        right: -4px;
+    
+    }
+    .col-lg-4 {
+        margin-left: 0;
+    }
+    .main {
+        flex-direction: column;
+    margin: 0px;
+    font-size: 20px;
+    width:100%
+    }
+    .main table {
+        width:100% !important;
+    }
+    .main .btn-login
+     {
+        width: 34%;
+        font-size: 18px;
+        margin-left: 20%;
+        
+    }
+    .main .btn-cancel
+     {
+        width: 34%;
+        font-size: 18px;
+        
+    }
+    .main .forget {
+        margin-left: 116px;
+    }
+    .main .right {
+        padding: 5px;
+    }
+    .main .left {
+        display: none;
+    }
+    h5 {
+        font-size: 20px;
+    }
+   
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.logo{ width: 20%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding-right: 5px; padding-left: 15px; font-size: 14px; }
+.banner_taital { font-size: 50px; padding-top: 50px; }
+.btn_main { padding-top: 20px; }
+.services_section { padding-top: 65px; padding-bottom: 15px; }
+.moremore_bt { margin-top: 0px; }
+.padding_left_0 { padding-left: 0px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header_section {
+        display: flex;
+        flex-direction: column;
+        height: 1098px;
+    }
+    .header_section::after {
+        top: 97%;
+    }
+  .header_left{
+    width: 100%;
+    text-align: center;
+}
+.header_right {
+    width: 100%;
+}
+.first_img  img:first-child {
+    position: absolute;
+    right: 113px;
+    width: 90%;
+    top: 406px;
+}
+.first_img  img:nth-child(2) {
+    position: absolute;
+    right: 12px;
+    width: 100%;
+    top: 459px;
+
+}
+.contact_bt {
+    width:258px;
+}
+.contact_bt a {
+    font-size: 24px;
+    height: 69px;
+}
+.more_bt {
+    width:258px;
+}
+.more_bt a {
+    font-size: 24px;
+    height: 69px;
+}
+.services_section .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 199px;
+}
+ .part_img {
+    right: -161px;
+    top: 373px;
+    width: 782px;
+    max-width: 700px;
+}
+ .col-md-8 {
+    margin-bottom: 271px; 
+    max-width: 100%;}
+ .image_1 {
+    right: -146%;
+    top: -96px;
+ }
+ .image_10 {
+    right: -382px;
+    top: -216px;
+    max-width: 508px !important;
+    width: 508px;
+}
+.containe .card-text {
+    font-size: 39px;
+    line-height: 1.5;
+    height: 200px;
+    top: 145px;
+    text-align: center;
+     right: 0px; 
+ }
+ .moremore_bt a{
+    width: 258px;
+    margin-left: 215px;
+    font-size: 25px;
+ }
+ .col-lg-4{
+    margin-left: 213px;
+ }
+ .col-lg-4 .left-side-product-box {
+    margin-left: 0;
+
+ }
+
+.banner_taital {font-size: 75px; padding-top: 30px;  }
+.banner_main { padding-left: 15px; }
+.banner_text {     width: 100%;
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 2;}
+.btn_main { 
+    padding-top: 0px;
+    padding-left: 123px;
+    padding-right: 100px;
+    display: flex;}
+.services_section { padding-top: 30px; background-repeat: no-repeat; padding-bottom: 30px; }
+.services_taital { font-size: 26px; }
+.services_text {    width: 100%;
+    font-size: 29px;
+    line-height: 2;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px; }
+.image_1 { padding-top: 30px; }
+.what_we_do_section_2 { margin-top: 20px; }
+.image_6 { left: -70px; }
+.fact_text { font-size: 14px; }
+.what_text_1 { width: 100%; font-size: 15px; }
+.moremore_bt { margin-top: 0px; width: 160px; }
+.what_text { font-size: 15px; }
+.dropdown {
+    margin-left: 0px;
+}
+.left-side-product-box{
+    margin-left: 0px;
+  }
+  .text_align_center .about-btn {
+    font-size: 30px;
+    width: 44%;
+    height: 54px;
+
+}
+body{
+    font-size: 25px;
+}
+.form-control-lg {
+    font-size: 33px;
+   
+}
+.btn-lg, .m-0 {
+    font-size: 33px;
+}
+h3{
+    font-size: 33px;
+
+}
+ul{
+    font-size: 33px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    font-size: 34px;
+}
+.navbar-toggler {
+    font-size: 2.8rem;
+  
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.banner_taital {font-size: 30px; padding-top: 30px;  }
+.banner_main { padding-left: 15px; }
+.banner_text { width: 100%; font-size: 14px; }
+.btn_main { padding-top: 0px;}
+.more_bt { width: 130px; }
+.contact_bt { width: 130px; margin-left: 12px; }
+.services_section { padding-top: 50px; background-repeat: no-repeat; padding-bottom: 0px; }
+.services_taital { font-size: 28px; }
+.services_text { width: 100%; font-size: 14px; margin-left: 0px; margin-top: 0px; }
+.image_1 { padding-top: 30px; }
+.lorem_text { font-size: 15px; }
+.what_we_do_section_2 { margin-top: 20px; }
+.box_main {margin-top: 30px; }
+.project_main { padding-top: 0px; } 
+.image_6 { left: -70px; }
+.fact_text { font-size: 14px; }
+.what_text_1 { width: 100%; font-size: 15px; }
+.padding_left_0 { padding-left: 0px; }
+.mail_section { width: 100%; padding-left: 20px; }
+.dropdown {
+    margin-left: 0px;
+  }  
+
+} 
+
+
+@media (max-width: 575px) {
+    .last { display: none; }
+    .carousel-caption {display: none;} 
+.header { padding-top: 0px; }
+.btn-primary {max-width: 126px;
+margin-right: 2px;
+font-size: 14px;}
+.banner-main .carousel-caption h1 {font-size: 30px; line-height: 38px;}
+.titlepage h2 {
+    font-size: 27px;
+}
+.sporrt_text{ 
+     font-size: 23px; 
+     margin-top: 0px;
+}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+    display: none;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+    display: none;
+}
+
+.titlepage h2::after {
+    width: 93%;
+}
+    .about-box .titlepage h2::after {
+        width: 238px;
+        right: -50px;
+    }
+ .Gallery .titlepage h2 {
+    font-size: 47px;
+ }
+    .Gallery .titlepage h2::after {
+        width: 89%;
+    }
+
+    .paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.Nursery-img .text-box h3 {
+font-size: 23px;
+padding: 30px 14px;
+
+}
+
+.contact .titlepage h2::after {
+
+    left: -8px;
+    width: 281px;
+}
+.menu-bottom {
+    margin-bottom: 45px;
+}
+ul.link li {
+
+    padding: 8px 12px;
+    padding-bottom: 0px; 
+}
+.header_left { width: 100%; }
+.logo { width: 45%; }
+.banner_taital { font-size: 30px; padding-top: 30px; }
+.banner_main { padding-left: 15px; }
+.btn_main { padding-top: 10px; }
+.contact_bt { width: 140px; margin-left: 10px; }
+.more_bt { width: 140px;}
+.header_right {padding-top: 30px; }
+.services_section { background: #ffffff; padding-bottom: 0px; margin-top: 0px; }
+.services_taital { font-size: 24px; }
+.image_1 { padding-top: 30px; }
+.what_we_do_section_2 { margin-top: 0px; }
+.image_6 { left: -60px; }
+.images_left { width: 100%; }
+.images_right { width: 100%; }
+.images_right { margin-top: 5px; margin-left: 0; }
+.what_taital { font-size: 21px; }
+.what_text_1 { width: 100%; font-size: 16px; }
+.image_11{ width: 50%;}
+.copyright_section { width: 90%; }
+
+
+
+}
